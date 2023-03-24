@@ -8,6 +8,7 @@ header{
     width:100%;
     height: 50px;
     margin-top: 10px;
+    overflow: hidden;
 }
 .head ul{
     list-style: none;
@@ -22,6 +23,8 @@ header{
 .p-s-1{
     width: 100%;
     height: auto;
+    overflow: hidden;
+    /*! margin-bottom: 11px; */
 }
 .ps1-left{
     width: 45%;
@@ -65,6 +68,7 @@ header{
 .left-down{
     width: 100%;
      height: auto;
+    margin-top: 197px;
 }
 .left-down img{
     width: 100%;
@@ -91,6 +95,7 @@ header{
     font-size: 42px;
     font-weight: 400;
     color: #454552;
+    text-transform: uppercase;
 }
 .right-down p{
     
@@ -113,4 +118,53 @@ header{
     font-weight: 398;
     font-size: 21px;
 }
+.p-s-2{
+    width: 100%;
+    height: auto;
+    background-color: #F8F9FC;
+    overflow: hidden;
+}
+.works-s{
+    width: 100%;
+    height: auto;
+}
+.head-2{
 
+    display: block;
+    width: 100%;
+    /*! margin: 184px 477px; */
+    margin: 100px 0;
+}
+.head-2 h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    /*! font-family: 'Oswald', sans-serif; */
+    font-weight: 845;
+    font-size: 40px;
+    color: #3e3636;
+}
+.my-works{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.pic{
+ width: 30%;
+ height: auto;
+ float: left;
+ margin-right: 5%;
+ height: auto;
+}
+.pic img{
+    width: 100%;
+}
+.pic1{
+    width: 30%;
+    height: auto;
+    float: right;
+}
+.pic1 img{
+    width: 100%;
+    height: auto;
+}
